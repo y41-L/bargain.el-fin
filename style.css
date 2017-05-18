@@ -120,17 +120,3 @@ a.ref {
 mark.highlight {
     background-color: greenyellow;
 }
-
-img.ad1 {
-    position: relative;
-    left: 650px;
-    top: -4000px;
-    height: 150px;
-    width: 180px;
-}
-
-img.ad2 {
-    position: relative;
-    left: 820px;
-    top: -1800px;
-}
