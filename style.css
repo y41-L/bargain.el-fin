@@ -1,0 +1,136 @@
+body {
+    background-image: url("wood.jpg");
+    background-repeat: repeat-x, repear-y;
+}
+
+img.econ {
+    position: relative;
+    left: -8px;
+    top: -8px;
+}
+
+div.inner {
+    background-color: lightgray;
+    width: 900px;
+    margin-top: -8px;
+    margin-left: 100px;
+    height: 5000px;
+    box-shadow: 5px 5px 10px grey;
+    z-index: 1;
+}
+
+div.empty {
+    position: absolute;
+    background-color: lightgray;
+    width: 1100px;
+    margin-top: 8px;
+    margin-left: 100px;
+    height: 5000px;
+    z-index: -1;
+}
+
+p.author {
+    margin-left: 70px;
+    position: relative;
+    top: 70px;
+}
+
+a.econlink {
+    margin-left: 70px;
+    position: relative;
+    top: 55px;
+    color: palevioletred;
+    text-decoration: none;
+}
+
+h2.title {
+    margin-left: 70px;
+    position: relative;
+    top: 40px;
+    font-size: 30px;
+}
+
+img.cover {
+    margin-left: 5px;
+    position: relative;
+    top: 40px;
+    left: 260px;
+}
+
+pre.quote {
+    position: relative;
+    top: 80px;
+    left: 150px;
+    text-align: center;
+    font-size: 15px;
+    border-top-style: double;
+    border-bottom-style: double;
+    max-width: 600px;
+    border-radius: 5px;
+    border-color: chartreuse;
+}
+
+li.lists {
+    font-family: "Times New Roman";
+    font-weight: bold;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 60px;
+    position: relative;
+    top: 150px;
+}
+
+p.explain {
+    font-family: "Lucida Console";
+    margin-left: 40px;
+    position: relative;
+    top: 150px;
+    margin-right: 80px;
+}
+
+img.barimg {
+    position: relative;
+    top: 150px;
+    left: 40px;
+}
+
+iframe.vid {
+    position: relative;
+    top: 160px;
+    left: 40px;
+}
+
+pre.conclu {
+    position: relative;
+    top: 200px;
+    left: 38px;
+    font-size: 14px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: gray;
+    max-width: 754px;
+}
+
+a.ref {
+    position: relative;
+    top: 155px;
+    left: 730px;
+}
+
+mark.highlight {
+    background-color: greenyellow;
+}
+
+img.ad1 {
+    position: relative;
+    left: 650px;
+    top: -4000px;
+    height: 150px;
+    width: 180px;
+}
+
+img.ad2 {
+    position: relative;
+    left: 820px;
+    top: -1800px;
+}
